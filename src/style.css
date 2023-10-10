@@ -87,13 +87,14 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 576px) {
   h1 {
     text-align: center;
     font-size: 60px;
   }
   h2 {
     text-align: center;
+    font-size: 32px;
   }
   img {
     display: none;
@@ -101,5 +102,8 @@ p {
   .primary-link {
     display: flex;
     justify-content: center;
+  }
+  p {
+    text-align: center;
   }
 }
